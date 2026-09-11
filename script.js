@@ -1,19 +1,5 @@
-// Newsletter
-    const newsletterForm =
-      document.querySelector(".newsletter-form");
 
-    newsletterForm.addEventListener("submit", function(event) {
 
-      event.preventDefault();
-
-      const button =
-        newsletterForm.querySelector("button");
-
-      button.textContent = "¡Gracias!";
-
-      button.style.background = "#8d2929";
-
-    });
 
 
     // Animación sencilla al aparecer elementos

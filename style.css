@@ -494,54 +494,6 @@
        NEWSLETTER
     ===================================================== */
 
-    .newsletter {
-      background: #e7e0d2;
-      padding: 70px 0;
-      text-align: center;
-    }
-
-    .newsletter h2 {
-      font-family: var(--serif);
-      font-size: 3rem;
-      font-weight: 500;
-      margin-bottom: 10px;
-    }
-
-    .newsletter p {
-      color: var(--muted);
-      max-width: 600px;
-      margin: 0 auto 30px;
-    }
-
-    .newsletter-form {
-      max-width: 520px;
-      margin: 0 auto;
-      display: flex;
-    }
-
-    .newsletter-form input {
-      flex: 1;
-      border: 1px solid var(--ink);
-      background: var(--paper-light);
-      padding: 15px 17px;
-      font-family: var(--sans);
-      outline: none;
-    }
-
-    .newsletter-form button {
-      border: 1px solid var(--ink);
-      background: var(--ink);
-      color: var(--paper);
-      padding: 0 25px;
-      font-family: var(--sans);
-      font-weight: 700;
-      cursor: pointer;
-    }
-
-    .newsletter-form button:hover {
-      background: var(--accent);
-    }
-
 
     /* =====================================================
        FOOTER
@@ -675,19 +627,6 @@
 
       .about {
         padding: 60px 0;
-      }
-
-      .newsletter h2 {
-        font-size: 2.2rem;
-      }
-
-      .newsletter-form {
-        flex-direction: column;
-        gap: 8px;
-      }
-
-      .newsletter-form button {
-        min-height: 48px;
       }
 
       .footer-grid {
